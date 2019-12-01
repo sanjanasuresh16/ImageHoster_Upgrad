@@ -3,6 +3,31 @@
   <component name="ChangeListManager">
     <list default="true" id="9247aca6-5667-4711-8010-f25bce313290" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/ImageHosterApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/config/JpaConfig.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/HomeController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/ImageController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/controller/UserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/model/Image.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/model/Tag.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/model/UserProfile.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/repository/ImageRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/repository/TagRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/service/ImageService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/service/TagService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/ImageHoster/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/static/css/tachyons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/images.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/images/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/images/image.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/images/upload.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/users/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/users/registration.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
@@ -140,16 +165,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1575212070105</updated>
-      <workItem from="1575212074878" duration="625000" />
+      <workItem from="1575212074878" duration="1234000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="625000" />
+    <option name="totallyTimeSpent" value="1234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="815" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -160,7 +184,7 @@
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Spring" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32918397" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32918397" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" />
@@ -169,7 +193,7 @@
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.46887967" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.46887967" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
