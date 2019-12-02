@@ -15,25 +15,25 @@
 <form th:action="@{/users/registration}" th:method="POST" th:object="${User}">
 
     <label for="username">Username:</label>
-    <input type="text" id="username" name="username" th:field="${User.username}"/>
+    <input type="text" id="username" name="username"/>
 
     <label for="password">Password:</label>
-    <input type="password" id="password" name="password" th:field="${User.password}"/>
+    <input type="password" id="password" name="password"/>
 
     <label for="fullname">Full Name:</label>
-    <input type="text" id="fullname" name="fullName" th:field="${User.profile.fullName}"/>
+    <input type="text" id="fullname" name="fullName"/>
 
     <label for="emailaddress">Email Address:</label>
-    <input type="text" id="emailaddress" name="emailAddress" th:field="${User.profile.emailAddress}"/>
+    <input type="text" id="emailaddress" name="emailAddress"/>
 
     <label for="mobilenumber">Mobile Number:</label>
-    <input type="text" id="mobilenumber" name="mobileNumber" th:field="${User.profile.mobileNumber}"/>
+    <input type="text" id="mobilenumber" name="mobileNumber"/>
 
     <input type="submit" value="Register"/>
 
 
     <!--Show the password type error if the password does not contain atleast 1 alphabet, 1 number & 1 special character-->
-    <!--<div th:if="${passwordTypeError}">Password must contain atleast 1 alphabet, 1 number & 1 special character</div>-->
+    <div th:if="${passwordTypeError}">Password must contain atleast 1 alphabet, 1 number & 1 special character</div>
 </form>
 
 </html>
