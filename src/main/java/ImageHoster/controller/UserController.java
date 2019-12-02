@@ -20,6 +20,9 @@ import java.util.regex.Pattern;
 @Controller
 public class UserController {
 
+
+
+
     private static final String PASSWORD_PATTERN = "((?=.*\\d)(?=.*[a-zA-Z])(?=.*[_@#$%]).{3,12})";
 
     @Autowired
